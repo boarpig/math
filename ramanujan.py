@@ -40,7 +40,3 @@ def ramanujan(k):
 if __name__ == '__main__':
     print(ramanujan(10000))
 
-# python3.2 : viidellä yrityksellä noin 10,7 sekuntia keskimäärin
-# python3.3 : viidellä yrityksellä noin 0.43 sekuntia keskimäärin
-# = 25x nopeutus!
-
