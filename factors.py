@@ -2,7 +2,7 @@
 
 from math import sqrt
 
-def primeFactors(number):
+def factors(number):
     """Returns all prime factors of a number."""
     divisor = 2
     factors = [1]
