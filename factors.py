@@ -17,11 +17,12 @@ def primeFactors(number):
 
 def divisors(number):
     """Returns all divisors of the number."""
-    divisors = 2
+    divisors = [1, number]
     sqrtn = int(sqrt(number))
     for i in range(2, sqrtn - 1):
-        if (number % i)==0:
-            divisors += 2
+        if (number % i) == 0:
+            divisors.append(i)
+            divisors.append(number / i)
     if sqrtn**2 == number:
-        divisors += 1
+        divisors.append(sqrtn)
     return divisors
