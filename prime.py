@@ -8,6 +8,8 @@ def isprime(n):
     """Checks given number for primality.
     Returns true and number itself if number is prime or
     false and smallest primefactor if not prime.
+
+    Naive implementation
     
     """
     primelist = [2, 3]
